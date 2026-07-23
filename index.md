@@ -9,7 +9,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| James C | Herricks | Electrical Engineering | Incoming Junior
+| James C | Herricks High School | Engineering (not sure rn) | Incoming Junior
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -78,9 +78,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| UNO R3 Most Complete Starter Kit | kit providing parts: Arduino uno r3, jumper wires, active buzzer, buttons, USB cable | $56.99 | <a href="https://us.elegoo.com/products/elegoo-uno-most-complete-starter-kit?variant=40394045390896&srsltid=AfmBOoqSgfQp84R36vfaww_tAvy6lnrlz0THkj6JrSihUclU8NkhmnbspfA&utm_source=officiallisting&utm_medium=referral&variant=40394045390896&srsltid=AfmBOoqSgfQp84R36vfaww_tAvy6lnrlz0THkj6JrSihUclU8NkhmnbspfA&utm_id=usstore"> Link </a> |
+| 4 digital display TM1637 | shows the timer | $7.99 | <a href="https://www.amazon.com/WWZMDiB-Module%EF%BC%8CLED-Brightness-Adjustable-Accessories/dp/B0BFQNFX6D"> Link </a> |
+| Rotary Encoder with Push-Button | sets up the timer | $1.49 | <a href="https://envistiamall.com/products/rotary-encoder-module-with-pushbutton-switch-ky-040?currency=USD&country=US&variant=28453729673&utm_source=google&utm_medium=cpc&utm_campaign="> Link </a> |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
