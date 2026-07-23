@@ -52,6 +52,7 @@ For your first milestone, describe what your project is and how you plan to buil
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
+My project is a Chess clock/timer. For my first milestone I wanted to make the the physical Chess clock. Because of this most of my time revolved on the hardware part. I was able to set up all the pieces needed and connect the wires. A small mistake I had was I mostly mixed up the active and passive buzzer. The main part of this milestone I spent was definitely connecting all the wires. This was my first time working with a breadboard and I had to learn the right way to connect everything and make sure there wasn't gonna be a short circuit ot something like that. It was also very messy with all the wires everywhere so I tried rearranging the wires in better places to make it easier for me. I hope to add the code and make sure it all works in the second Milestone. 
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
