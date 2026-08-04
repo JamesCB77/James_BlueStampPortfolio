@@ -33,11 +33,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cUcmcce_FP8?si=eCHiTjRAY7oR4T_x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+For my second milestone, I completed the base code for my project. This part was difficult because I had never worked with C++ before. However, I had a bit of experience with Java which helped me understand some of the programming concepts easier. One challenge I had was a debounce issue with the rotary encoder, which took quite a while to understand and code a solution but with the help of my instructor, I was eventually able to debug the issue and successfully fix it. For my final milestone, I plan to make additional modifications and improvements now that the base project is done. I hope to also continue improving the overall project of the chess clock.
 
 # First Milestone
 
