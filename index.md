@@ -69,6 +69,8 @@ TM1637Display displayB(CLKB, DIOB);
 #define btA 9
 #define btB 10
 #define buzz 11
+#define ledA 12
+#define ledB 13
 
 uint8_t segOff[] = {false, false};
 
@@ -122,6 +124,8 @@ void setup() {
   pinMode(btA, INPUT_PULLUP);
   pinMode(btB, INPUT_PULLUP);
   pinMode(buzz, OUTPUT);
+  pinMode(ledA, OUTPUT);
+  pinMode(ledB, OUTPUT);
 
   pinMode(outputA, INPUT_PULLUP);   // was INPUT — pins were floating!
   pinMode(outputB, INPUT_PULLUP);
@@ -136,6 +140,8 @@ void loop() {
 
     case 0:
       digitalWrite(buzz, LOW);
+      digitalWrite(ledA, LOW);
+      digitalWrite(ledB, LOW);
       displayA.showNumberDecEx(minSetA*100 + secSetA, 0b01000000, true, 4, 0);
       displayB.showNumberDecEx(minSetB*100 + secSetB, 0b01000000, true, 4, 0);
       enSwStatus = digitalRead(enSw);
@@ -209,6 +215,8 @@ void loop() {
       
     case 11:
       timeA = millis() - timeO - timeB;
+      digitalWrite(ledA, HIGH);
+      digitalWrite(ledB, LOW);
       if (timeOut()==1) modeState = 13;
       displayA.showNumberDecEx(timeDisplay(timeA,"A"), 0b01000000, true, 4, 0);
       displayB.showNumberDecEx(timeDisplay(timeB,"B"), 0b01000000, true, 4, 0);
@@ -225,6 +233,8 @@ void loop() {
 
     case 12:
       timeB = millis() - timeO - timeA;
+      digitalWrite(ledB, HIGH);
+      digitalWrite(ledA, LOW);
       if (timeOut()==1) modeState = 13;
       displayA.showNumberDecEx(timeDisplay(timeA,"A"), 0b01000000, true, 4, 0);
       displayB.showNumberDecEx(timeDisplay(timeB,"B"), 0b01000000, true, 4, 0);
