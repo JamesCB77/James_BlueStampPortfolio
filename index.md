@@ -8,11 +8,10 @@ My project is a chess clock made with an Arduino, two 4-digit displays, a rotary
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| James C | Herricks High School | Engineering (not sure rn) | Incoming Junior
+| James C | Herricks High School | Electrical Engineering | Incoming Junior
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+![Headstone Image](Screenshot.png)
   
 # Final Milestone
 
@@ -36,7 +35,7 @@ For my second milestone, I completed the base code for my project. This part was
 My project is a chess clock/timer. For my first milestone, my main goal was to build the physical structure of the chess clock. Because of this, most of my time was focused on the hardware part of the project. I was able to set up the required parts and connect the needed wires. One challenge I faced was accidentally mixing up the active and passive buzzers but I was able to spot it quickly. The biggest part of this milestone was connecting and organizing all of the wiring. Since this was my first time working with a breadboard, I had to learn how to connect components correctly while making sure everything was wired correctly and preventing possible issues like short circuits. Another challenge was managing the large number of wires, which initially made the setup look messy and a little hard to follow. To improve the organization, I rearranged the wires and placed them in better fit positions, making the project easier to understand. For the second milestone, I plan to add the code and begin testing the chess clock to ensure that all of the hardware and software components work properly.
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+
 ![Headstone Image](schematicsbreadboard.png)
 
 # Code
@@ -322,8 +321,6 @@ int timeOut() {
 ```
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =.
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
@@ -331,10 +328,3 @@ Don't forget to place the link of where to buy each component inside the quotati
 | 4 digital display TM1637 | shows the timer | $7.99 | <a href="https://www.amazon.com/WWZMDiB-Module%EF%BC%8CLED-Brightness-Adjustable-Accessories/dp/B0BFQNFX6D"> Link </a> |
 | Rotary Encoder with Push-Button | sets up the timer | $1.49 | <a href="https://envistiamall.com/products/rotary-encoder-module-with-pushbutton-switch-ky-040?currency=USD&country=US&variant=28453729673&utm_source=google&utm_medium=cpc&utm_campaign="> Link </a> |
 
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-
-To watch the BSE tutorial on how to create a portfolio, click here.
