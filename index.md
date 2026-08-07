@@ -1,10 +1,6 @@
 # BlueStamp Chess Clock
 My project is a chess clock made with an Arduino, two 4-digit displays, a rotary encoder, and push buttons. You can customize your game time and time gained from each move before starting a match, creating a fully working chess timer. My biggest challenges were debugging the rotary encoder and adding the increment feature, but solving these problems gave me more experience about electronics, programming, and debugging.
 
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
