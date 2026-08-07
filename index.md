@@ -17,16 +17,10 @@ You should comment out all portions of your portfolio that you have not complete
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o86_V3mbhnM?si=aqIzj0LZF1ro0A1b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
-
+For my final milestone, I completed my chess clock project and made several improvements and modifications beyond the original base project. I added the ability to set a custom increment for each player and continued testing the project to make sure everything worked correctly. Throughout this process, I spent a lot of time debugging and making small changes to improve the overall chess clock. The biggest challenge I faced was implementing the increment feature because the timer continuously recalculated the elapsed time, so I had to change how the extra time was stored and displayed. Another challenge was solving the debounce issue with the rotary encoder. I learned about quadrature decoding and how tracking the encoder's sequence of signals made the controls much more accurate and prevented skipped values and bouncing.
+Overall, I learned a lot about both hardware and software, including wiring components on a breadboard, reading and modifying C++ code, and debugging problems along the way. After everything I learned at BSE, I hope to continue improving my programming and electronics skills and maybe continue more projects and learning more about robotics.
 
 
 # Second Milestone
