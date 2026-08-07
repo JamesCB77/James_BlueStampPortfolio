@@ -1,7 +1,6 @@
 # BlueStamp Chess Clock
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+My project is a chess clock made with an Arduino, two 4-digit displays, a rotary encoder, and push buttons. You can customize your game time and time gained from each move before starting a match, creating a fully working chess timer. My biggest challenges were debugging the rotary encoder and adding the increment feature, but solving these problems gave me more experience about electronics, programming, and debugging.
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
